@@ -1,0 +1,9 @@
+filename,format,width,height,mode,min_pixel,max_pixel,avg_pixel
+data\nightsample01.jpg,JPEG,512,512,RGB,0,255,57.32
+data\nightsample02.jpg,WEBP,1269,762,RGB,0,255,35.21
+data\nightsample03.jpg,JPEG,960,372,RGB,0,255,17.21
+data\nightsample04.jpg,JPEG,1200,675,RGB,0,255,77.89
+data\nightsample05.jpg,JPEG,1110,740,RGB,0,255,23.35
+data\test01_fullyblack.jpg,JPEG,789,437,RGB,0,8,2.89
+data\test02_fullywhite.jpg,JPEG,1200,600,RGB,255,255,255.0
+data\test02_halfblackhalfwhite.jpg,JPEG,509,339,RGB,0,255,128.26
