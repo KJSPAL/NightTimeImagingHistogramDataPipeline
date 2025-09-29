@@ -23,7 +23,7 @@ if not image_files:
 results_dir = "results"
 
 #Create results folder if it doesnt exist
-if not os.path.exists(results_dir):
+if not os.path.exists(results):
     os.makedirs(results_dir)
 
 #List to hold results for CSV
@@ -32,13 +32,13 @@ results = []
 #Loop through images 
 for image_path in image_files:
     #Open image and create array
-    img = Image.open(image_path)
-    arr = numpy.array(img)
+    image = Image.open(image_path)
+    imageArray = numpy.array(image)
 
     #Store basic stats about image
-    minVal = numpy.min(arr)
-    maxVal = numpy.max(arr)
-    avgVal = round(numpy.mean(arr), 2)
+    minVal = numpy.min(imageArray)
+    maxVal = numpy.max(imageArray)
+    avgVal = round(numpy.mean(imageArray), 2)
 
     #Output on console (this isnt necessary)
     print(f"\nAnalyzing: {image_path}")
